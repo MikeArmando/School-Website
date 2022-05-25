@@ -5,11 +5,11 @@ body {
 }
 
 .intro {
-    background: url();
+    background: url(/img/erika-fletcher-2Z0yN0Dhomw-unsplash.jpg);
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     background-size: cover;
-    height: 44.9rem;
+    height:100vh;
 }
 
 nav {
@@ -31,7 +31,7 @@ nav section div {
 }
 
 nav section div a {
-    color: black;
+    color: rgb(231, 231, 231);
     text-decoration: none;
 }
 
@@ -44,6 +44,6 @@ nav section div a {
 }
 
 .title h2 a {
-    color: black;
+    color: rgb(231, 231, 231);
     text-decoration: none;
 }
