@@ -33,6 +33,26 @@ nav section div {
 nav section div a {
     color: rgb(231, 231, 231);
     text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+nav section div a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ca3600;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+nav section div a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 .title {
