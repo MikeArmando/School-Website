@@ -1,18 +1,24 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(255, 237, 213);
+    font-family: sans-serif;
+}
+
+.intro {
+    background: url(/img/rb13.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 44.9rem;
 }
 
 nav {
-    border: 2px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 nav section {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +26,7 @@ nav section {
 }
 
 nav section div {
-    font-size: .9rem;
+    font-size: .69rem;
     margin: 0rem .8rem;
 }
 
@@ -30,7 +36,7 @@ nav section div a {
 }
 
 .title {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     padding-left: 2rem;
     display: flex;
     justify-content: flex-start;
