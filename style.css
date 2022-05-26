@@ -64,6 +64,15 @@ nav section div a:hover::after {
     align-items: center;
 }
 
+.title-logo {
+    background-image: url(/img/pngwing.com\ \(1\).png);
+    width: 13vh;
+    height: 9vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: .2rem;
+}
+
 .title h2 a {
     color: rgb(231, 231, 231);
     text-decoration: none;
@@ -73,7 +82,7 @@ nav section div a:hover::after {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30vh;
+    margin-top: 24vh;
 }
 
 .intro-text div {
@@ -84,7 +93,7 @@ nav section div a:hover::after {
 }
 
 .intro-text div h1{
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: rgb(231, 231, 231);
 }
 
