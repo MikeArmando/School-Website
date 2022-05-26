@@ -89,5 +89,6 @@ nav section div a:hover::after {
 }
 
 .intro-text div p{
+    text-align: center;
     color: rgb(231, 231, 231);
 }
