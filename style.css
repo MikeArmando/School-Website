@@ -112,3 +112,44 @@ nav section div a:hover::after {
     background-size: cover;
     height:100vh;
 }
+
+.contact-body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-title {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.contact-box {
+    margin: 2rem;
+}
+
+.contact-body2 {
+    display: flex;
+    justify-content: center;
+    gap: 25rem;
+}
+
+.contact-info {
+    
+}
+
+.contact-s {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-s div {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-s div input {
+    margin: .5rem;
+}
