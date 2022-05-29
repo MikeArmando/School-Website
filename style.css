@@ -158,3 +158,9 @@ nav section div a:hover::after {
 .contact-s div input {
     margin: .5rem;
 }
+
+.contact-btn {
+    cursor: pointer;
+    margin: .5rem;
+    width: 50%;
+}
