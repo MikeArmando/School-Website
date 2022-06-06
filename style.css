@@ -137,10 +137,6 @@ nav section div a:hover::after {
     gap: 25rem;
 }
 
-.contact-info {
-    
-}
-
 .contact-info div {
     margin-top: 3rem;
 }
@@ -172,8 +168,8 @@ nav section div a:hover::after {
 .contact-btn {
     cursor: pointer;
     margin-top: 1.7rem;
+    padding: .5rem;
     width: 50%;
-    height: 9%;
     color: white;
     background-color: #ca5800;
     border: none;
@@ -183,4 +179,9 @@ nav section div a:hover::after {
 
 .contact-btn:hover {
     background-color: black;
+}
+
+#formsg {
+    margin-top: 1rem;
+    color: rgb(211, 74, 74);
 }
