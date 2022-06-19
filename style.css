@@ -185,3 +185,26 @@ nav section div a:hover::after {
     margin-top: 1rem;
     color: rgb(211, 74, 74);
 }
+
+.main-body {
+    height: 100vh;
+}
+
+.daily-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.daily-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+}
+
+.daily-content a img {
+    width: 63.4rem;
+    height: 35.3rem;
+}
