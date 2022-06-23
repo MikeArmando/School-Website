@@ -186,15 +186,11 @@ nav section div a:hover::after {
     color: rgb(211, 74, 74);
 }
 
-.main-body {
-    height: 100vh;
-}
-
 .daily-box {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 100vh;
 }
 
 .daily-content {
@@ -207,4 +203,16 @@ nav section div a:hover::after {
 .daily-content a img {
     width: 63.4rem;
     height: 35.3rem;
+}
+
+.offer {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.offer h2 {
+    margin-top: 6rem;
+    font-size: 2rem;
+    text-transform: uppercase;
 }
