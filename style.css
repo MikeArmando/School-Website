@@ -205,14 +205,59 @@ nav section div a:hover::after {
     height: 35.3rem;
 }
 
-.offer {
+.offer-box {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     height: 100vh;
 }
 
-.offer h2 {
+.offer-box h2 {
     margin-top: 6rem;
     font-size: 2rem;
     text-transform: uppercase;
+}
+
+.offer-cont {
+    display: flex;
+    border: 2px solid;
+}
+
+.offer-cont div {
+    border: 2px solid;
+}
+
+.offer-sci img {
+    border: 2px solid;
+    width: 30%;
+}
+
+.offer-sci img {
+    border: 2px solid;
+    width: 30%;
+}
+
+.offer-sci img {
+    border: 2px solid;
+    width: 30%;
+}
+
+.offer-sci img {
+    border: 2px solid;
+    width: 30%;
+}
+
+.offer-sci img {
+    border: 2px solid;
+    width: 30%;
+}
+
+.offer-sci img {
+    border: 2px solid;
+    width: 30%;
+}
+
+.offer-sci img {
+    border: 2px solid;
+    width: 30%;
 }
