@@ -220,44 +220,78 @@ nav section div a:hover::after {
 
 .offer-cont {
     display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
     border: 2px solid;
 }
 
-.offer-cont div {
-    border: 2px solid;
+.offer-item1 {
+    background-image: url(/img/tim-mossholder-P59xkC9zLIE-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1rem;
+    width: 27rem;
+    height: 17rem;
 }
 
-.offer-sci img {
-    border: 2px solid;
-    width: 30%;
+.offer-item2 {
+    background-image: url(/img/fabrizio-magoni-boaDpmC-_Xo-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1rem;
+    width: 27rem;
+    height: 17rem;
 }
 
-.offer-sci img {
-    border: 2px solid;
-    width: 30%;
+.offer-item3 {
+    background-image: url(/img/florian-olivo-4hbJ-eymZ1o-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1rem;
+    width: 27rem;
+    height: 17rem;
 }
 
-.offer-sci img {
-    border: 2px solid;
-    width: 30%;
+.offer-item4 {
+    background-image: url(/img/redd-5U_28ojjgms-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1rem;
+    width: 27rem;
+    height: 17rem;
 }
 
-.offer-sci img {
-    border: 2px solid;
-    width: 30%;
+.offer-item5 {
+    background-image: url(/img/kelly-sikkema-xoU52jUVUXA-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1rem;
+    width: 27rem;
+    height: 17rem;
 }
 
-.offer-sci img {
-    border: 2px solid;
-    width: 30%;
+.offer-item6 {
+    background-image: url(/img/cdc-XLhDvfz0sUM-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1rem;
+    width: 27rem;
+    height: 17rem;
 }
 
-.offer-sci img {
-    border: 2px solid;
-    width: 30%;
-}
-
-.offer-sci img {
-    border: 2px solid;
-    width: 30%;
+.offer-item7 {
+    background-image: url(/img/tim-mossholder-V37iTrYZz2E-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1rem;
+    width: 27rem;
+    height: 17rem;
 }
