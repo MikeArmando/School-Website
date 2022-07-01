@@ -237,7 +237,7 @@ nav section div a:hover::after {
 }
 
 .offer-item2 {
-    background-image: url(/img/fabrizio-magoni-boaDpmC-_Xo-unsplash.jpg);
+    background-image: url(/img/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -294,4 +294,15 @@ nav section div a:hover::after {
     margin: 1rem;
     width: 27rem;
     height: 17rem;
+}
+
+.offer-item-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border: 2px solid;
+    font-size: 1.5rem;
+    height: 100%;
+    color: white;
+    text-decoration: none;
 }
