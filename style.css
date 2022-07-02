@@ -223,7 +223,7 @@ nav section div a:hover::after {
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
-    border: 2px solid;
+    margin: 1rem;
 }
 
 .offer-item1 {
@@ -277,7 +277,7 @@ nav section div a:hover::after {
 }
 
 .offer-item6 {
-    background-image: url(/img/cdc-XLhDvfz0sUM-unsplash.jpg);
+    background-image: url(/img/cdc-WCEOtVmk2VY-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -296,13 +296,21 @@ nav section div a:hover::after {
     height: 17rem;
 }
 
-.offer-item-text {
+.offer-item-all p {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    border: 2px solid;
+    height: 90%;
+}
+
+.offer-item-all a {
+    background-color: rgba(255, 217, 171, 0.535);
     font-size: 1.5rem;
-    height: 100%;
+    width: 100%;
     color: white;
     text-decoration: none;
+}
+
+.offer-item-all a:hover {
+    text-decoration: underline;
 }
